@@ -47,14 +47,14 @@ public class JavaStdinAndStdout {
 
         Scanner in = new Scanner(System.in);
 
-        int number = in.nextInt();
+        int n = in.nextInt();
         double d = in.nextDouble();
         in.nextLine();
         String s = in.nextLine();
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
-        System.out.println("Int: " + number);
+        System.out.println("Int: " + n);
 
     }
 }
